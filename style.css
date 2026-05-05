@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding: 24px;
+}
+.cabecalho .logo {
+    font-size:30px;
+    font-weight: 700;
+    color: #5c9fd6;
+}
+.azulForte {
+   color: rgb(43, 13, 112); 
+  
+
+}
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.container .menu a {
+    text-decoration: none;
+    color : #5c9fd6;
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero {
+    background-color: #5c9fd6;
+    margin: 10px 24px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    padding: 40px 0px;
+    height: 70vh;
+    align-items: center;
+    position: relative;
+}
+.hero_conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+.hero .hero_acoes {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.hero_imagem img{
+    width: 400px;
+    position: absolute;
+    bottom: -37px;
+    right:0px;
+}
+  
+@media (max-width: 768px) {
+    .hero .hero_conteudo{
+        align-items: center;
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 32px;
+    }
+    .hero_imagem img {
+        display: none;
+        
+    }
+    
+}
+h2 {
+    color: #5c9fd6;
+}
+.petShop {
+    display: flex;
+    gap: 100px;
+    margin: 100px;
+   
+}
+
+    .paragrafo {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+         
+    }
+     .titulo {
+        font-weight: 700;
+        color: #5c9fd6;
+    }
+.paragrafo .borda {
+    border: 1px solid #5c9fd6;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #5c9fd6;
+}
+@media (max-width: 768px) {
+    .paragrafo {
+        flex-direction: column;
+    }
+}
+.container_servicos {
+    display: flex;
+    gap: 16px;
+    margin: 200px;
+     align-items: center;
+     margin-top: 10px;
+     padding: 40px;
+      background-color: #5c9fd6;
+      border-radius: 20px;
+}
+.container_servicos img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+   
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+@media (max-width: 768px) {
+    .container_servicos {
+        flex-direction: column;
+        margin: 50px;
+    }
+    .container_servicos img {
+        width: 100%;
+        height: auto;
+    }
+}
+h3 {
+    flex-direction: column;
+}
+
