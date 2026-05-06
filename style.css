@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
+
 }
+
+/* cabeçalho */
 .container {
     width: 100%;
     max-width: 1200px;
@@ -11,33 +14,41 @@
     padding-left: 24px;
     padding-right: 24px;
 }
+
 .cabecalho {
     display: flex;
     align-items: center;
     justify-content: space-between;
-     padding: 24px;
+    padding: 24px;
 }
+
 .cabecalho .logo {
-    font-size:30px;
+    font-size: 30px;
     font-weight: 700;
     color: #5c9fd6;
 }
+
 .azulForte {
-   color: rgb(43, 13, 112); 
-  
+    color: rgb(43, 13, 112);
+
 
 }
+
 .cabecalho .menu {
     display: flex;
     align-items: center;
     gap: 24px;
 }
+
 .container .menu a {
     text-decoration: none;
-    color : #5c9fd6;
+    color: #5c9fd6;
     font-size: 16px;
     font-weight: 500;
 }
+
+/* hero section */
+
 .hero {
     background-color: #5c9fd6;
     margin: 10px 24px;
@@ -49,102 +60,189 @@
     align-items: center;
     position: relative;
 }
+
 .hero_conteudo {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    
-}
-.hero .hero_acoes {
-    display: flex;
-    gap: 16px;
-    align-items: center;
+
 }
 
-.hero_imagem img{
+
+.hero_imagem img {
     width: 400px;
     position: absolute;
     bottom: -37px;
-    right:0px;
+    right: 0px;
 }
-  
+
 @media (max-width: 768px) {
-    .hero .hero_conteudo{
+    .hero .hero_conteudo {
         align-items: center;
         text-align: center;
     }
+
     .hero h1 {
         font-size: 32px;
     }
+
     .hero_imagem img {
         display: none;
-        
+
     }
-    
+
 }
+
 h2 {
     color: #5c9fd6;
 }
+
+/*sobre section*/
+
 .petShop {
     display: flex;
     gap: 100px;
     margin: 100px;
-   
+
 }
 
-    .paragrafo {
-        display: flex;
-        flex-direction: row;
-        gap: 16px;
-         
-    }
-     .titulo {
-        font-weight: 700;
-        color: #5c9fd6;
-    }
+.paragrafo {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+}
+
+.titulo {
+    font-weight: 700;
+    color: #5c9fd6;
+}
+
 .paragrafo .borda {
     border: 1px solid #5c9fd6;
     border-radius: 10px;
     padding: 10px;
     background-color: #5c9fd6;
 }
+
 @media (max-width: 768px) {
     .paragrafo {
         flex-direction: column;
     }
 }
+
+/*serviços section*/
+
 .container_servicos {
     display: flex;
     gap: 16px;
     margin: 200px;
-     align-items: center;
-     margin-top: 10px;
-     padding: 40px;
-      background-color: #5c9fd6;
-      border-radius: 20px;
+    align-items: center;
+    margin-top: 10px;
+    padding: 40px;
+    background-color: #5c9fd6;
+    border-radius: 20px;
 }
+
 .container_servicos img {
     width: 300px;
     height: 250px;
     border-radius: 20px;
-   
+
 }
+
 .coluna {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
+    align-items: space-between;
 }
+
 @media (max-width: 768px) {
     .container_servicos {
         flex-direction: column;
         margin: 50px;
     }
+
     .container_servicos img {
         width: 100%;
         height: auto;
     }
 }
+
 h3 {
     flex-direction: column;
 }
 
+.container_servicos .titulo2 {
+    font-weight: 700;
+    color: rgb(39, 63, 143);
+    margin-left: 100px;
+    display: flex;
+
+}
+
+/* contato section */
+
+.container_contato {
+    background-color: #5c9fd6;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    margin: 0 auto;
+    
+}
+
+#btn2 {
+    background-color: white;
+    color: #5c9fd6;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.titulo3 {
+    font-weight: 700;
+    color: rgb(39, 63, 143);
+    margin-bottom: 16px;
+}
+.formulario {
+    width: 40%;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    border: 1px solid rgb(175, 164, 235);
+    border-radius: 10px;
+    background-color: #5c9fd6;
+    
+ 
+}
+.input, textarea, input {
+            background-color: #72baf5 ;
+            border-radius: 10px;
+            padding: 10px;
+}
+.bnt3 {
+    background-color: rgb(39, 63, 143);
+    padding: 22px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* footer */
+
+  .container_footer {   
+    background-color: #272026a4;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+    
+
+     

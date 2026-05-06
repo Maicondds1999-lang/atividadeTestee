@@ -26,13 +26,12 @@
                 <a href="#hero">Início</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#servicos">Serviços</a>
-                <a href="#contato">Contato</a>
+                <a href="#contatos">Contato</a>
 
             </nav>
 
         </div>
     </header>
-    <!-- principal -->
     <main>
 
         <!-- hero section -->
@@ -43,11 +42,9 @@
                             prioridade!🐾</span></h1>
                     <p>No Happy Dog, sabemos que o seu cão é mais do que um animal de estimação, ele é parte da família.
                         <br> Por isso, criamos um espaço dedicado a oferecer todo o carinho, cuidado e profissionalismo
-                        que ele merece.</p>
-                    <div class="hero_acoes">
-                        <button id="btn">Agendar Atendimento</button>
-                        <a href="#">Conheça nossos serviços</a>
-                    </div>
+                        que ele merece.
+                    </p>
+
 
                     <div class="hero_imagem">
                         <img src="cachorrofeliz.png" alt="Imagem de um cachorro feliz">
@@ -56,35 +53,73 @@
             </div>
         </section>
         <!-- sobre section -->
-        <section class="petShop">
+        <section class="petShop" id="sobre">
             <div class="container petshop">
                 <h2>Por que escolher o Happy Dog?</h2><br>
 
                 <div class="paragrafo">
-                    <p><span class="titulo">Estética Canina: <br></span> Banho e tosa com produtos hipoalergênicos e profissionais apaixonados
+                    <p><span class="titulo">Estética Canina: <br></span> Banho e tosa com produtos hipoalergênicos e
+                        profissionais apaixonados
                         pelo que fazem.</p>
-                    <p><span class="titulo">Consultório Veterinário:<br></span> Cuidado preventivo e atendimento atencioso para garantir uma vida longa
+                    <p><span class="titulo">Consultório Veterinário:<br></span> Cuidado preventivo e atendimento
+                        atencioso para garantir uma vida longa
                         e saudável.</p>
-                    <p><span class="titulo">Pet Shop Completo:<br></span> Uma seleção das melhores rações, brinquedos e acessórios do mercado.</p>
-                    <p><span class="titulo">Ambiente Safe & Happy:<br></span> Instalações modernas e higienizadas, projetadas para reduzir o estresse do
+                    <p><span class="titulo">Pet Shop Completo:<br></span> Uma seleção das melhores rações, brinquedos e
+                        acessórios do mercado.</p>
+                    <p><span class="titulo">Ambiente Safe & Happy:<br></span> Instalações modernas e higienizadas,
+                        projetadas para reduzir o estresse do
                         seu pet.</p>
                 </div>
             </div>
         </section>
         <!-- serviços section -->
-            <section class="servicos">
-                <div class="container_servicos">
-                    <div class="coluna"><img src="cachorrobanho.png" alt="cachorro tomando banho">
-                    <p><span class="titulo">Banho e Tosa <br></span> Hidratação, corte de unhas e limpeza de ouvidos inclusos.</p>
-                    </div>
-                    <div class="coluna"><img src="daycare.png" alt="cachorros brincando">
-                    <p><span class="titulo">Daycare <br></span>Recreação monitorada para ele gastar <br>energia e socializar.</p>
-                    </div> 
-                    <h3>"Trabalhamos para que cada abanar de rabo seja um agradecimento pelo cuidado que oferecemos."</h3>
+        <section class="servicos" id="servicos">
+            <div class="container_servicos">
+                <div class="coluna"><img src="cachorrobanho.png" alt="cachorro tomando banho">
+                    <p><span class="titulo2">Banho e Tosa <br></span> Hidratação, corte de unhas e limpeza de ouvidos
+                        inclusos.</p>
                 </div>
-            </section>
+                <div class="coluna"><img src="daycare.png" alt="cachorros brincando">
+                    <p><span class="titulo2">Daycare<br></span>Recreação monitorada para ele gastar <br>energia e
+                        socializar.</p>
+                </div>
+            </div>
+        </section>
+
         <!-- contato section -->
+
+         <section>
+                <div class="container_contato" id="contatos">
+                    <h3>Agende uma visita hoje mesmo!</h3>
+                    <p>Quer ver o seu amigão saindo mais feliz do que entrou? Venha nos conhecer e descubra por que somos o lugar favorito dos cães da região.</p>
+                    <p><span class="titulo3">📍 Endereço:</span> Gaspar, Sc</p>
+                    <p><span class="titulo3">📞 Telefone:</span> (47) 1234-5678</p>
+                    <p><span class="titulo3">✉️ Email:</span> contato@happydog.com </p>
+                    
+                    <a href="#formulario"><button id="btn2">Agendar Visita</button></a>
+                </div>
+                  <form class="formulario" id="formulario">
+                     <label for="nome">Nome:</label>
+                     <input type="text" id="nome" placeholder="Digite seu nome" required><br></br>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" placeholder="Digite seu telefone" required><br></br>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="" id="mensagem" placeholder="Tire suas dúvidas estamos aqui para ajudar!" required></textarea>  <br></br>
+
+                    <button class="bnt3" type="submit">Enviar</button>
+                  </form>
+
+
+
+         </section>
         <!-- footer -->
+            <footer>
+                <div class="container_footer">
+                    <p>© 2024 Happy Dog. Todos os direitos reservados.</p> <p>Desenvolvido por Maicon Santos.</p>
+                    
+                </div>
 
 
     </main>
